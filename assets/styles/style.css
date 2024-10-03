@@ -152,3 +152,67 @@
   box-shadow: 0 0 1rem 0 #111;
 }
 /* about us end */
+
+/* testimonials */
+.testimonials-section {
+  text-align: center; /* Mengatur teks agar terpusat */
+  margin-top: 50px; /* Margin atas untuk jarak dari elemen sebelumnya */
+  padding: 20px; /* Padding untuk area testimoni */
+}
+
+.testimonials-section h2 {
+  font-size: 32px; /* Ukuran font untuk judul */
+  margin-bottom: 12px; /* Jarak bawah judul */
+  font-weight: bold; /* Menjadikan teks judul menjadi tebal */
+}
+
+.underline {
+  width: 200px; /* Lebar garis bawah judul */
+  height: 4px; /* Tinggi garis bawah judul */
+  background-color: #800; /* Warna garis bawah */
+  margin: 0 auto 30px; /* Margin atas dan bawah untuk posisi garis */
+}
+
+.testimonials {
+  margin-top: 90px; /* Margin atas untuk ruang antara testimoni */
+}
+
+.testimonial-box {
+  background-color: white; /* Warna latar belakang untuk kotak testimoni */
+  padding: 20px; /* Padding dalam kotak testimoni */
+  border-radius: 30px; /* Membuat sudut kotak bulat */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan pada kotak */
+  position: relative; /* Menetapkan posisi relatif untuk kotak */
+  border-top: 2px solid #800; /* Border atas kotak */
+  border-left: 2px solid #800; /* Border kiri kotak */
+  border-right: 10px solid #800; /* Border kanan kotak */
+  border-bottom: 10px solid #800; /* Border bawah kotak */
+  margin-bottom: 40px; /* Jarak bawah kotak testimoni */
+  padding-top: 60px; /* Padding atas untuk mengangkat gambar */
+}
+
+.testimonial-img {
+  border-radius: 50%; /* Membuat gambar menjadi bulat */
+  width: 100px; /* Lebar gambar */
+  height: 100px; /* Tinggi gambar */
+  position: absolute; /* Membuat gambar menjadi absolut dalam kotak */
+  top: -50px; /* Mengangkat gambar ke atas */
+  left: 20px; /* Jarak gambar dari sisi kiri */
+  border: 3px solid white; /* Border untuk gambar */
+}
+
+.testimonial-content {
+  text-align: justify; /* Mengatur teks agar rata kiri dan kanan */
+}
+
+.testimonial-content p {
+  font-size: 16px; /* Ukuran font untuk isi testimoni */
+  margin-bottom: 10px; /* Jarak bawah untuk paragraf testimoni */
+}
+
+.author {
+  font-weight: bold; /* Menjadikan nama pengarang menjadi tebal */
+  color: #333333; /* Warna teks untuk nama pengarang */
+  margin-top: 20px; /* Jarak atas untuk nama pengarang */
+  text-align: right; /* Mengatur teks nama pengarang ke kanan */
+}
