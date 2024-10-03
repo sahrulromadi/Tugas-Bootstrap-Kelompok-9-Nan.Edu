@@ -156,7 +156,6 @@
 /* testimonials */
 .testimonials-section {
   text-align: center; /* Mengatur teks agar terpusat */
-  margin-top: 50px; /* Margin atas untuk jarak dari elemen sebelumnya */
   padding: 20px; /* Padding untuk area testimoni */
 }
 
@@ -236,4 +235,44 @@
   width: 90px;
   height: 45px;
   margin-right: 10px;
+}
+
+/* courses */
+.title {
+  font-weight: 700;
+  font-size: 50px;
+  color: #000000;
+}
+
+.text-truncate-multiline {
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* Jumlah baris yang ditampilkan sebelum terpotong */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-body {
+  background-color: #f4f4f4;
+}
+
+.card-body .card-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #ff8143;
+}
+.card-body .card-subtitle {
+  font-weight: 100;
+  font-size: 15px;
+  color: #5c5c5c;
+}
+
+.card-body span i {
+  color: #db1032;
+}
+.course-stats {
+  margin: 10px 30px;
+}
+.card-footer {
+  background-color: #f4f4f4;
 }
