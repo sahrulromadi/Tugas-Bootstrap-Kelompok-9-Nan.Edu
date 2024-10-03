@@ -1,0 +1,154 @@
+/* font */
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* font end */
+/* navbar */
+.navbar-brand.logo {
+  font-weight: 700;
+  color: #f0e68c;
+}
+.navbar-brand.logo:hover {
+  color: #f0e68c;
+}
+.nav-item {
+  margin: 0 10px;
+}
+.nav-item .nav-link {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.nav-item .nav-link:hover {
+  color: #f0e68c;
+}
+.header .navbar {
+  background-color: #800;
+}
+.btn-navbar {
+  display: inline-block;
+  padding: 6px 20px;
+  border-radius: 50px;
+  background-color: #0a0a5c;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.btn-navbar:hover {
+  color: #0a0a5c;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+/* navbar end */
+
+/* about us */
+.about-us {
+  width: 100%;
+  height: 450px;
+  background-color: #f4f4f4;
+  margin-top: 80px;
+  border: 10px solid #f4f4f4;
+  border-radius: 20px;
+}
+.about-us .about-pertama {
+  font-weight: 700;
+  font-size: 24px;
+  width: 90%;
+  color: #ff8143;
+}
+.about-us .about-kedua {
+  font-weight: 100;
+  font-size: 14px;
+  width: 80%;
+  color: #5c5c5c;
+}
+.content-about {
+  margin: 20px 20px;
+}
+.link-about {
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid #0a0a5c;
+  color: #fff;
+  background-color: #0a0a5c;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 10px 10px;
+  margin: 0 160px;
+  border-radius: 10px;
+}
+.link-about:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.diskusi-fluid {
+  height: 530px;
+  width: 450px;
+  margin-left: 200px;
+  position: relative;
+  top: -500px;
+  left: 550px;
+  border: solid #fff;
+  border-radius: 10px;
+}
+.growth {
+  font-size: 15px;
+  background-image: url("../img/growth.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  margin-top: -5px;
+  border-radius: 20px;
+}
+.growth-pertama {
+  color: #fff;
+  padding: 15px 15px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.growth p {
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 10px;
+}
+.growth p:hover {
+  padding: 1rem;
+  border-radius: 1rem;
+  transition: 1s;
+  backdrop-filter: blur(2rem);
+  box-shadow: 0 0 1rem 0 #111;
+}
+.revenue {
+  font-size: 14px;
+  background-image: url("../img/revenue.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  margin-top: -201px;
+  margin-left: 220px;
+  border-radius: 20px;
+}
+.revenue-pertama {
+  color: #fff;
+  padding: 15px 15px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.revenue p {
+  color: #fff;
+  margin-top: 25px;
+  padding: 10px 10px;
+}
+.revenue p:hover {
+  padding: 1rem;
+  border-radius: 1rem;
+  transition: 0.5s;
+  backdrop-filter: blur(2rem);
+  box-shadow: 0 0 1rem 0 #111;
+}
+/* about us end */
