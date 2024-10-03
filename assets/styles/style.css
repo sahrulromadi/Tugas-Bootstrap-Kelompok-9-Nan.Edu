@@ -216,3 +216,24 @@
   margin-top: 20px; /* Jarak atas untuk nama pengarang */
   text-align: right; /* Mengatur teks nama pengarang ke kanan */
 }
+
+/* contact */
+.map-caption {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #212529;
+}
+
+.whatsapp-button {
+  display: flex;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.whatsapp-button img {
+  width: 90px;
+  height: 45px;
+  margin-right: 10px;
+}
