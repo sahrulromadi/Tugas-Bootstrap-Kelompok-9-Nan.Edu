@@ -3,166 +3,186 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* font end */
+
 /* navbar */
 .navbar-brand.logo {
-  font-weight: 700;
-  color: #f0e68c;
+  color: #f0e68c; /* warna tulisan logo */
 }
 .navbar-brand.logo:hover {
-  color: #f0e68c;
-}
-.nav-item {
-  margin: 0 10px;
+  color: #f0e68c; /* warna tulisan ketika logo diklik*/
 }
 .nav-item .nav-link {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 500;
+  color: #fff; /* warna tulisan */
+  font-size: 14px; /* sizetulisan */
+  font-weight: 500; /* tebal tulisan */
 }
 .nav-item .nav-link:hover {
-  color: #f0e68c;
+  color: #f0e68c; /* warna tulisan navbar ketika diarahkan */
 }
 .header .navbar {
-  background-color: #800;
+  background-color: #800; /* warna background navbar */
 }
 .btn-navbar {
-  display: inline-block;
-  padding: 6px 20px;
-  border-radius: 50px;
-  background-color: #0a0a5c;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 600;
-  text-decoration: none;
+  display: inline-block; /* mengatur tampilan tombol login */
+  background-color: #0a0a5c; /* warna background tombol login */
+  color: #fff; /* warna tulisan tombol login */
+  font-size: 14px; /* ukuran tulisan tombol login */
 }
 .btn-navbar:hover {
-  color: #0a0a5c;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  color: #0a0a5c; /* warna tulisan tombol login ketika diarahkan */
+  background-color: #fff; /* warna background tombol login ketika diarahkan */
 }
 /* navbar end */
 
-/* about us */
+/* jumbotron */
 .about-us {
-  width: 100%;
-  height: 450px;
-  background-color: #f4f4f4;
-  margin-top: 80px;
-  border: 10px solid #f4f4f4;
-  border-radius: 20px;
+  background-color: #ebebeb; /* warna background homepage */
+  margin-top: 90px; /* mengatur jarak bawah background homepage */
+  border: 10px solid #ebebeb; /* mengatur border background homepage */
+  border-radius: 20px; /* mengatur sudut background homepage */
 }
 .about-us .about-pertama {
-  font-weight: 700;
-  font-size: 24px;
-  width: 90%;
-  color: #ff8143;
-}
-.about-us .about-kedua {
-  font-weight: 100;
-  font-size: 14px;
-  width: 80%;
-  color: #5c5c5c;
-}
-.content-about {
-  margin: 20px 20px;
+  font-weight: 700; /* tebal tulisan kami meyakini */
+  font-size: 24px; /* ukuran tulisan kami meyakini*/
+  color: #ff8143; /* warna tulisan tulisan kami meyakini*/
 }
 .link-about {
-  text-decoration: none;
-  text-transform: uppercase;
-  border: 1px solid #0a0a5c;
-  color: #fff;
-  background-color: #0a0a5c;
-  display: inline-block;
-  font-size: 11px;
-  font-weight: 600;
-  padding: 10px 10px;
-  margin: 0 160px;
-  border-radius: 10px;
+  text-transform: uppercase; /* mengubah huruf menjadi huruf kapital join us*/
+  border: 1px solid #0a0a5c; /* mengatur border join us*/
+  color: #fff; /* warna tulisan join us*/
+  background-color: #0a0a5c; /* warna background join us*/
+  display: inline-block; /* mengatur tampilan join us*/
+  font-size: 11px; /* ukuran tulisan join us*/
+  font-weight: 600; /* tebal tulisan join us*/
+  border-radius: 10px; /* mengatur sudut join us*/
 }
 .link-about:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* menambahkan bayangan pada join us*/
 }
 .diskusi-fluid {
-  height: 530px;
-  width: 450px;
-  margin-left: 200px;
-  position: relative;
-  top: -500px;
-  left: 550px;
-  border: solid #fff;
-  border-radius: 10px;
+  height: 450px; /* mengatur tinggi background diskusi */
+  width: 380px; /* mengatur lebar background diskusi */
+  margin-left: 200px; /* mengatur jarak kiri background diskusi */
+  position: relative; /* menetapkan posisi relatif untuk background diskusi */
+  top: -500px; /* mengatur jarak bawah background diskusi */
+  left: 600px; /* mengatur jarak dari sisi kiri background diskusi */
+  border-radius: 10px; /* mengatur sudut background diskusi */
 }
 .growth {
-  font-size: 15px;
-  background-image: url("../img/growth.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 200px;
-  background-color: #fff;
-  margin-top: -5px;
-  border-radius: 20px;
+  font-size: 15px; /* ukuran tulisan growth */
+  background-image: url("../img/growth.jpg"); /* gambar background growth */
+  background-size: cover; /* mengatur ukuran background growth agar memenuhi seluruh kotak */
+  background-repeat: no-repeat; /* menghilangkan repeat pada background growth */
+  width: 200px; /* mengatur lebar background growth */
+  height: 200px; /* mengatur tinggi background growth */
+  background-color: #fff; /* mengatur warna background growth */
+  margin-top: 30px; /* mengatur jarak atas background growth */
+  border-radius: 20px; /* mengatur sudut background growth */
 }
 .growth-pertama {
-  color: #fff;
-  padding: 15px 15px;
-  font-weight: 700;
-  font-size: 18px;
+  color: #fff; /* mengatur warna tulisan Membantu bisnis */
+  font-weight: 700; /* mengatur tebal tulisan Membantu bisnis */
+  font-size: 18px; /* mengatur ukuran tulisan Membantu bisnis */
 }
 .growth p {
-  color: #fff;
-  margin-top: 20px;
-  padding: 10px 10px;
+  color: #fff; /* mengatur warna tulisan Membantu bisnis */
 }
 .growth p:hover {
-  padding: 1rem;
-  border-radius: 1rem;
-  transition: 1s;
-  backdrop-filter: blur(2rem);
-  box-shadow: 0 0 1rem 0 #111;
+  padding: 1rem; /* mengatur jarak blur Membantu bisnis */
+  border-radius: 1rem; /* mengatur sudut pada tulisan Membantu bisnis */
+  transition: 0.5s; /* mengatur durasi transisi pada tulisan Membantu bisnis */
+  backdrop-filter: blur(
+    2rem
+  ); /* menambahkan efek blur pada tulisan Membantu bisnis */
+  box-shadow: 0 0 1rem 0 #111; /* menambahkan bayangan pada tulisan Membantu bisnis */
 }
 .revenue {
-  font-size: 14px;
-  background-image: url("../img/revenue.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 200px;
-  background-color: #fff;
-  margin-top: -201px;
-  margin-left: 220px;
-  border-radius: 20px;
+  font-size: 14px; /* ukuran tulisan revenue */
+  background-image: url("../img/revenue.jpg"); /* gambar background revenue */
+  background-size: cover; /* mengatur ukuran background revenue agar memenuhi seluruh kotak */
+  background-repeat: no-repeat; /* menghilangkan repeat pada background revenue */
+  width: 200px; /* mengatur lebar background revenue */
+  height: 200px; /* mengatur tinggi background revenue */
+  background-color: #fff; /* mengatur warna background revenue */
+  margin-top: -201px; /* mengatur jarak bawah background revenue */
+  margin-left: 220px; /* mengatur jarak kiri background revenue */
+  border-radius: 20px; /* mengatur sudut background revenue */
 }
 .revenue-pertama {
-  color: #fff;
-  padding: 15px 15px;
-  font-weight: 700;
-  font-size: 18px;
+  color: #fff; /* mengatur warna tulisan revenue */
+  font-weight: 700; /* mengatur tebal tulisan revenue */
+  font-size: 18px; /* mengatur ukuran tulisan revenue */
 }
 .revenue p {
-  color: #fff;
-  margin-top: 25px;
-  padding: 10px 10px;
+  color: #fff; /* mengatur warna tulisan memaksimalkan */
 }
 .revenue p:hover {
-  padding: 1rem;
-  border-radius: 1rem;
-  transition: 0.5s;
-  backdrop-filter: blur(2rem);
-  box-shadow: 0 0 1rem 0 #111;
+  padding: 1rem; /* mengatur jarak blur memaksimalkan */
+  border-radius: 1rem; /* mengatur sudut pada tulisan memaksimalkan */
+  transition: 0.5s; /* mengatur durasi transisi pada tulisan memaksimalkan */
+  backdrop-filter: blur(
+    2rem
+  ); /* menambahkan efek blur pada tulisan memaksimalkan */
+  box-shadow: 0 0 1rem 0 #111; /* menambahkan bayangan pada tulisan memaksimalkan */
 }
-/* about us end */
+/* jumbotron end */
+
+/* courses */
+.text-truncate-multiline {
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* Jumlah baris yang ditampilkan sebelum terpotong */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-body {
+  background-color: #f4f4f4;
+}
+
+.card-body .card-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #ff8143;
+}
+.card-body .card-subtitle {
+  font-weight: 100;
+  font-size: 15px;
+  color: #5c5c5c;
+}
+
+.card-body span i {
+  color: #db1032;
+}
+
+.card-footer {
+  background-color: #f4f4f4;
+}
+
+@media (min-width: 992px) {
+  .courses-container {
+    margin-top: -350px; /* agar courses nya tidak terlalu jauh */
+  }
+}
+/* courses */
+
+/* about */
+.custom-line {
+  width: 50%;
+  height: 4px;
+  background-color: #000;
+  margin: 10px auto;
+}
+.custom-border {
+  border: 3px solid #000;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+/* about end */
 
 /* testimonials */
-.testimonials-section {
-  text-align: center; /* Mengatur teks agar terpusat */
-  padding: 20px; /* Padding untuk area testimoni */
-}
-
 .testimonials-section h2 {
   font-size: 32px; /* Ukuran font untuk judul */
-  margin-bottom: 12px; /* Jarak bawah judul */
-  font-weight: bold; /* Menjadikan teks judul menjadi tebal */
 }
 
 .underline {
@@ -210,11 +230,9 @@
 }
 
 .author {
-  font-weight: bold; /* Menjadikan nama pengarang menjadi tebal */
   color: #333333; /* Warna teks untuk nama pengarang */
-  margin-top: 20px; /* Jarak atas untuk nama pengarang */
-  text-align: right; /* Mengatur teks nama pengarang ke kanan */
 }
+/* testimonials */
 
 /* contact */
 .map-caption {
@@ -234,45 +252,5 @@
 .whatsapp-button img {
   width: 90px;
   height: 45px;
-  margin-right: 10px;
 }
-
-/* courses */
-.title {
-  font-weight: 700;
-  font-size: 50px;
-  color: #000000;
-}
-
-.text-truncate-multiline {
-  display: -webkit-box;
-  -webkit-line-clamp: 4; /* Jumlah baris yang ditampilkan sebelum terpotong */
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.card-body {
-  background-color: #f4f4f4;
-}
-
-.card-body .card-title {
-  font-weight: 700;
-  font-size: 20px;
-  color: #ff8143;
-}
-.card-body .card-subtitle {
-  font-weight: 100;
-  font-size: 15px;
-  color: #5c5c5c;
-}
-
-.card-body span i {
-  color: #db1032;
-}
-.course-stats {
-  margin: 10px 30px;
-}
-.card-footer {
-  background-color: #f4f4f4;
-}
+/* contact */
