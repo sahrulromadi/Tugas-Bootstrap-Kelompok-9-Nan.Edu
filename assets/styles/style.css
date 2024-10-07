@@ -195,7 +195,7 @@
 .underline {
   width: 200px; /* Lebar garis bawah judul */
   height: 4px; /* Tinggi garis bawah judul */
-  background-color: #800; /* Warna garis bawah */
+  background-color: black; /* Warna garis bawah */
   margin: 0 auto 30px; /* Margin atas dan bawah untuk posisi garis */
 }
 

@@ -10,7 +10,7 @@ boxQuestions.forEach((q) => {
   // ambil icon
   const icon = q.querySelector(".faq-question i");
 
-  // event listener ketika faq-question diklik
+  // event listener ketika faq-item diklik
   q.addEventListener("click", () => {
     if (answer.style.display === "none") {
       answer.style.display = "block";
