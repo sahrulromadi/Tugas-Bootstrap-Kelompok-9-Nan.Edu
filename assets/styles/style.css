@@ -34,6 +34,13 @@
 }
 /* navbar end */
 
+/* footer */
+.footer {
+  background-color: #800;
+  color: #fff;
+}
+/* footer end */
+
 /* jumbotron */
 .about-us {
   background-color: #ebebeb; /* warna background homepage */
