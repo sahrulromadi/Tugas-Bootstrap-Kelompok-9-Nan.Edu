@@ -4,6 +4,23 @@
 }
 /* font end */
 
+/* settingan awal */
+html,
+body {
+  height: 100%; /* Pastikan html dan body memiliki tinggi penuh */
+  margin: 0; /* Hilangkan margin default */
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* Buat body sebagai flex container */
+}
+
+main {
+  flex: 1; /* Buat main mengambil semua ruang yang tersisa */
+}
+/* settingan awal end */
+
 /* navbar */
 .navbar-brand.logo {
   color: #f0e68c; /* warna tulisan logo */
@@ -19,9 +36,6 @@
 .nav-item .nav-link:hover {
   color: #f0e68c; /* warna tulisan navbar ketika diarahkan */
 }
-.header .navbar {
-  background-color: #800; /* warna background navbar */
-}
 .btn-navbar {
   display: inline-block; /* mengatur tampilan tombol login */
   background-color: #0a0a5c; /* warna background tombol login */
@@ -31,6 +45,11 @@
 .btn-navbar:hover {
   color: #0a0a5c; /* warna tulisan tombol login ketika diarahkan */
   background-color: #fff; /* warna background tombol login ketika diarahkan */
+}
+.navbar {
+  background-color: #800;
+  opacity: 1;
+  transition: opacity 0.3s ease; /* Transisi untuk smooth effect */
 }
 /* navbar end */
 
@@ -83,7 +102,7 @@
   width: 200px; /* mengatur lebar background growth */
   height: 200px; /* mengatur tinggi background growth */
   background-color: #fff; /* mengatur warna background growth */
-  margin-top: 30px; /* mengatur jarak atas background growth */
+  margin-top: 50px; /* mengatur jarak atas background growth */
   border-radius: 20px; /* mengatur sudut background growth */
 }
 .growth-pertama {
