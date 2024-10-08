@@ -27,7 +27,7 @@ boxQuestions.forEach((q) => {
 });
 
 // untuk contact
-document.querySelector("form").addEventListener("submit", () => {
+document.getElementById("contactForm").addEventListener("submit", () => {
   // ambil elemen berdasarkan id
   const name = document.getElementById("name").value;
   const phone = document.getElementById("phone").value;
@@ -36,4 +36,10 @@ document.querySelector("form").addEventListener("submit", () => {
 
   // alert yang muncul
   alert(`Name: ${name}\nPhone: ${phone}\nEmail: ${email}\nMessage: ${message}`);
+
+  // di console log
+  console.log("Name:", name);
+  console.log("Phone:", phone);
+  console.log("Email:", email);
+  console.log("Message:", message);
 });
