@@ -1,9 +1,23 @@
-// domcontentload -> untuk memastikan seluruh element sudah ada
-document.addEventListener("DOMContentLoaded", () => {
-  // untuk FAQ
-  // ambil semua pertanyaan dengan class faq-item
-  const boxQuestions = document.querySelectorAll(".faq-item");
+// untuk navbar
+// event listener scroll
+document.addEventListener("scroll", () => {
+  // kelas navbar
+  const navbar = document.querySelector(".navbar");
 
+  // jika scroll lebih dari 5 pixel
+  if (window.scrollY > 5) {
+    navbar.style.opacity = "0.9"; // Ubah opacity
+  } else {
+    navbar.style.opacity = "1"; // Kembalikan opacity
+  }
+});
+
+// untuk FAQ
+// ambil semua pertanyaan dengan class faq-item
+const boxQuestions = document.querySelectorAll(".faq-item");
+
+// handling agar di eksekusi jika ada element faq-item saja
+if (boxQuestions) {
   // gunakan loop karena memiliki class yang sama
   boxQuestions.forEach((q) => {
     // ambil answer dengan query selector
@@ -26,43 +40,29 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
+}
 
-  // untuk contact
-  const contactForm = document.getElementById("contactForm");
+// untuk contact
+const contactForm = document.getElementById("contactForm");
 
-  // jika #contactForm ada
-  if (contactForm) {
-    contactForm.addEventListener("submit", () => {
-      // ambil elemen berdasarkan id
-      const name = document.getElementById("name").value;
-      const phone = document.getElementById("phone").value;
-      const email = document.getElementById("email").value;
-      const message = document.getElementById("message").value;
+// handling agar hanya di eksekusi jika element ada
+if (contactForm) {
+  contactForm.addEventListener("submit", () => {
+    // ambil elemen berdasarkan id
+    const name = document.getElementById("name").value;
+    const phone = document.getElementById("phone").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
 
-      // alert yang muncul
-      alert(
-        `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\nMessage: ${message}`
-      );
+    // alert yang muncul
+    alert(
+      `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\nMessage: ${message}`
+    );
 
-      // di console log
-      console.log("Name:", name);
-      console.log("Phone:", phone);
-      console.log("Email:", email);
-      console.log("Message:", message);
-    });
-  }
-
-  // untuk navbar
-  // event listener scroll
-  document.addEventListener("scroll", () => {
-    // kelas navbar
-    const navbar = document.querySelector(".navbar");
-
-    // jika scroll lebih dari 5 pixel
-    if (window.scrollY > 5) {
-      navbar.style.opacity = "0.9"; // Ubah opacity
-    } else {
-      navbar.style.opacity = "1"; // Kembalikan opacity
-    }
+    // di console log
+    console.log("Name:", name);
+    console.log("Phone:", phone);
+    console.log("Email:", email);
+    console.log("Message:", message);
   });
-});
+}
