@@ -91,7 +91,7 @@
               Login
             </div>
             <div class="card-body">
-              <form>
+              <form class="needs-validation" novalidate>
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label"
                     >Username</label
@@ -101,7 +101,10 @@
                     class="form-control"
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
+                    required
                   />
+                  <div class="valid-feedback">Data sudah terisi!</div>
+                  <div class="invalid-feedback">Silakan isi username Anda!</div>
                 </div>
                 <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label"
@@ -111,7 +114,10 @@
                     type="password"
                     class="form-control"
                     id="exampleInputPassword1"
+                    required
                   />
+                  <div class="valid-feedback">Data sudah terisi!</div>
+                  <div class="invalid-feedback">Silakan isi password Anda!</div>
                 </div>
                 <p class="daftar" style="font-size: 0.9rem">
                   Belum memiliki akun?

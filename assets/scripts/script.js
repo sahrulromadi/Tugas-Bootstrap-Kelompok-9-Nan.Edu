@@ -47,7 +47,10 @@ const contactForm = document.getElementById("contactForm");
 
 // handling agar hanya di eksekusi jika element ada
 if (contactForm) {
-  contactForm.addEventListener("submit", () => {
+  contactForm.addEventListener("submit", (event) => {
+    // mencegah form dikirim secara default
+    event.preventDefault();
+
     // ambil elemen berdasarkan id
     const name = document.getElementById("name").value;
     const phone = document.getElementById("phone").value;
@@ -65,4 +68,24 @@ if (contactForm) {
     console.log("Email:", email);
     console.log("Message:", message);
   });
+}
+
+// untuk login dan register
+// ambil class needs validation
+const form = document.querySelector(".needs-validation");
+// validasi jika form ada, agar tidak error di page lain
+if (form) {
+  form.addEventListener(
+    "submit",
+    function (event) {
+      // cek validasi apakah semua input dalam form valid sesuai aturan HTML
+      if (!form.checkValidity()) {
+        // mencegah tindakan default dari event listener submit
+        event.preventDefault();
+      }
+      // class dari bootstrap untuk menampilkan elemen validasi
+      form.classList.add("was-validated");
+    },
+    false
+  );
 }
