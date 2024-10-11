@@ -67,6 +67,9 @@ if (contactForm) {
     console.log("Phone:", phone);
     console.log("Email:", email);
     console.log("Message:", message);
+
+    // reload page
+    location.reload();
   });
 }
 
